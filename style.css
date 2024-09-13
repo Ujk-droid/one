@@ -1,0 +1,92 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(231, 205, 209);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(110, 64, 60);
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-image: url(../asset/bg3.avif);
+    background-blend-mode: color;
+    background-color: rgba(235, 208, 208, 0.801);
+    border-radius: 25px 10px;
+    box-shadow: 5px 5px 5px rgb(74, 58, 58);
+}
+
+fieldset {
+    border: 2px solid rgb(35, 28, 43);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(110, 64, 60);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: rgb(110, 64, 60);
+}
+
+input, textarea {
+    width: calc(100% - 1px);
+    padding: 6px;
+    margin-top: 4px;
+    border-radius: 3px;
+    border: 1px solid rgb(28, 12, 28);
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 90%;
+    padding: 8px;
+    background-color: rgb(248, 164, 149);
+    color: rgb(110, 64, 60);
+    border-radius: 3px 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px solid rgb(33, 33, 15);
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(247, 129, 108);
+}
+
+#resumeOutput {
+    max-width: 550px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(33, 33, 15);
+    background-color: rgb(248, 164, 149);
+    color: rgb(110, 64, 60);
+    border-radius: 3px 8px;
+    box-shadow: 5px 5px 5px rgb(74, 58, 58);
+}
+
+#resumeOutput h2 {
+    color: rgb(110, 64, 60);
+}
+
+.profilepic {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid rgb(33, 33, 15);
+    box-shadow: 0 4px 8px rgba(6, 4, 9, 3.0);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
